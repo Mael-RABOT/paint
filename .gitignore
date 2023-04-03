@@ -1,0 +1,9 @@
+*.o
+*.a
+*.log
+vgcore.*
+my_paint
+.idea
+*.gcda
+*.gcno
+image.jpg

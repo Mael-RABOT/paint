@@ -1,0 +1,40 @@
+DESCRIPTION
+    Graphical drawing program
+
+SYNOPSIS
+    ./my_paint [OPTION] [FILE]
+    FILE                if an image is given as an argument, it will be loaded
+
+OPTIONS
+    -h                  display the help
+    --no-save           disable autosave on exit
+    --no-welcome        disable the welcome screen
+    --no-tips           disable the tips on start
+
+KEY INPUT
+    `E`                 Switch tool to Eraser
+    `P`                 Switch tool to Pencil
+
+    `+`                 Increase the brush size
+    `-`                 Decrease the brush size
+
+    shift + `+`         Set the brush size to it max value
+    shift + `-`         Set the brush size to it min value
+    shift + `D`         Set all the value to there default
+
+    ctrl + `S`          Save
+    ctrl + `O`          Open an image, ask for path
+
+    ctrl + shift + `S` Save as
+
+DEFAULT VALUE
+    Size                4
+    Color               Black
+    Background          White
+
+EXIT STATUS
+    0                   Successful program execution,
+    1                   Usage, syntax or file error.
+
+REPORTING BUG
+    there is no bug

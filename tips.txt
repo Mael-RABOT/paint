@@ -1,0 +1,5 @@
+"Read the man"
+"Use -h to display the help"
+"Ask an AER for help"
+"If you suck, get better"
+"Go see Emac Doctor"

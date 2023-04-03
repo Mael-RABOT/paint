@@ -1,0 +1,20 @@
+DESCRIPTION
+    Small python program to resize image before importing them in my_paint
+
+SYNOPSIS
+    python3 bonus/resizer.py [OPTION] file_path
+    file_path       path to an image, see supported format below
+
+OPTION
+    -h              display the help
+
+FORMAT
+    the program support:
+        -bmp
+        -png
+        -jpg
+        -gif
+        -psd
+
+REPORTING BUG
+    there is no bug
